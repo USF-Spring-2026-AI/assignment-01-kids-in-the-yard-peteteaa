@@ -2,6 +2,9 @@
 
 See assignment details on Canvas.
 
+
+To RUN:
+    python3 driver.py
 Answer the following questions:
 ● Which tool(s) did you use?
     I used cursor's agent tool and chatgpt's generative function
