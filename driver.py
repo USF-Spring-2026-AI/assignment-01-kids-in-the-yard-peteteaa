@@ -45,8 +45,8 @@ class FamilyTree:
                     queue.append(child)
     def interactive_menu(self):
         while True:
-            print("\nAre you interested in:")q
-            
+            print("\nAre you interested in:")
+
             print("(T)otal number of people in the tree")
             print("Total number of people in the tree by (D)ecade")
             print("(N)ames duplicated")
