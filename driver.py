@@ -84,7 +84,7 @@ class FamilyTree:
             name = person.get_first_name() + " " + person.get_last_name()
             name_counts[name] = name_counts.get(name, 0) + 1
         duplicates = [name for name in sorted(name_counts) if name_counts[name] > 1]
-        print(f"There are {len(duplicates)} duplicate names in the tree:")
+        print("There are "+ str(len(duplicates))+" duplicate names in the tree:")
         for name in duplicates:
             print("* " + name)
 if __name__ == "__main__":

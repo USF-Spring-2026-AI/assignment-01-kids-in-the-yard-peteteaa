@@ -196,7 +196,7 @@ class PersonFactory:
         birth_rate, marriage_rate = rates
 
         if partner is None and random.random() < marriage_rate :  # if married generate a partner
-            partnerbirthyear = year_born + random.randint(-10, 10)
+            partnerbirthyear = max(1950, min(year_born + random.randint(-10, 10), 2120))  # clamp to 1950-2120
             partnergender = random.choice(['male', 'female'])#gender of the partner
             partnerfirstname, partnerlastname = self.getname(partnergender, partnerbirthyear, None)
             deathyear = self.deathyear(partnerbirthyear)
