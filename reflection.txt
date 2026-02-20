@@ -1,0 +1,37 @@
+Awad distinguishes between different “types” of AI. What classification scheme does the paper
+use and why do these types matter for scientific research?
+
+Awad uses a functional classification scheme when it comes to AI. For example, Awad classifies some AI as "predictive" AI, meanining
+they try to anticipate outcomes/ indentify trends. Another example of this would be "descriptive" AI. This type of AI tries to look for patterns rather than predict them. 
+The key similarity between these classifications that Awad makes is that they are based off the utility of the AI, rather than any other factors.
+This is important due to the fact that different types of research require different types of AI. For example. medical research would use predictive AI 
+to try to find hotspots for diseases while A statitician would use a descriptive AI to understand a dataset.
+
+Does Awad make a clear distinction between AI as a tool and AI as a scientific collaborator? If so,
+what are the differences and what are some examples given to support the differences? Do these
+examples suggest a real shift in how science is conducted, or mostly an extension of existing
+methods?
+
+Awad argues that AIs are beginning to " act as active collaborators in the discovery process" meaning they are able to 
+support the hypothesis step, generating theories through reasoning, rather than regurgitating existing knowlege. 
+This is the biggest difference between AI as a tool and AI as a collaborator. AI as a tool will simply explain existing knowlege
+while AI as a collaborator is able to generate it's own. An example of this that is given is using AI in the drug development process.
+AIs are able to work as collaborators by indentifing target proteins on their own rather than needing a human to do it or indentifing preexisting targets.
+This suggests a real shift in how science is conducted as AI is beginning to form its own hypothesises that can be validated or denied by humans
+
+What are some limitations or risks of using AI in science? How do these relate to issues such as
+interpretability, bias, reproducibility, or theory formation?
+
+One of the issues that Awad cites is the interpretability of AIs. Some AIs act as "black boxes" not being able to explain how 
+they got their answers. This leads to results that are not able to be reproduced, or results that could have dubious logic behind this.
+This leads to Awad's other issue, that being model bias. Some models like RNNS may reproduce outputs that are similar if not the same as their 
+training data, due to their biases pushing them towards incorrect answers.
+
+According to Awad’s arguments, is AI more likely to accelerate scientific discovery or to reshape
+the scientific method itself? Do you agree or disagree?
+
+Awad would argue that AI would more likley reshape the scientific method, due to the fact that they cite AI's use as collaborators in science,
+generating hypothesises through reasoning. This leads researchers towards a different path when it comes to scientific discovery. I don't agree with this 
+idea, due to the fact that I think that AI will speed up scientific discovery rather than change the science method. I belive that
+AI will speed up the way existing knowlege is learned, leading to more accessable knowlege, leading to more discoveries made. On top of that,
+with the rise of reasoning models, AI can be used to help researchers confirm or reject their hypothesises at a much faster rate.

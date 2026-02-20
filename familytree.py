@@ -83,7 +83,7 @@ class PersonFactory:
             reader = csv.reader(f)
             next(reader)  # skip header
             for row in reader:
-                decade = int(row[0][:-1])  # "1950s" -> 1950
+                decade = int(row[0][:-1])  # "1950s" - 1950
                 gender = row[1]
                 key = (decade, gender)
                 if key not in self.first_names:
